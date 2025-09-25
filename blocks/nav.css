@@ -1,0 +1,11 @@
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.nav__logo {
+  width: 254px;
+  height: 70px;
+  padding-top: 34px;
+}
