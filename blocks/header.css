@@ -3,7 +3,6 @@
   flex-direction: column;
   align-items: center;
   margin: 0;
-  padding-top: 90px;
 }
 
 .header__title {
@@ -18,6 +17,7 @@
   color: #ffffff;
   margin: 0;
   padding-bottom: 32px;
+  padding-top: 90px;
 }
 
 .header__subtitle {
@@ -78,7 +78,6 @@
 
 @media screen and (max-width: 320px) {
   .header {
-    padding-top: 50px;
     padding-bottom: 16px;
   }
   .header__title {
@@ -89,6 +88,7 @@
     line-height: 44px;
     letter-spacing: 0%;
     text-align: center;
+    padding-top: 50px;
   }
   .header__subtitle {
     font-family: "Inter", serif;
