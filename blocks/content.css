@@ -62,34 +62,28 @@
     font-family: "Inter", serif;
     font-weight: 900;
     font-size: 45px;
-    leading-trim: NONE;
+
     line-height: 49px;
-    letter-spacing: 0%;
   }
   .content__quote-text {
     font-family: "Inter", serif;
     font-weight: 400;
     font-size: 24px;
-    leading-trim: NONE;
     line-height: 34px;
-    letter-spacing: 0%;
   }
   .content__quote-author {
     font-family: "Inter", serif;
     font-weight: 400;
     font-size: 24px;
-    leading-trim: NONE;
     line-height: 34px;
-    letter-spacing: 0%;
+
     text-align: right;
   }
   .content__text {
     font-family: "Inter", serif;
     font-weight: 400;
     font-size: 16px;
-    leading-trim: NONE;
     line-height: 163%;
-    letter-spacing: 0%;
   }
 }
 
@@ -98,9 +92,8 @@
     font-family: Inter;
     font-weight: 900;
     font-size: 32px;
-    leading-trim: NONE;
     line-height: 35px;
-    letter-spacing: 0%;
+
     padding-top: 64px;
   }
   .content__quote {
@@ -110,33 +103,26 @@
     font-family: Inter;
     font-weight: 400;
     font-size: 24px;
-    leading-trim: NONE;
     line-height: 30px;
-    letter-spacing: 0%;
   }
   .content__quote-author {
     font-family: Inter;
     font-weight: 400;
     font-size: 24px;
-    leading-trim: NONE;
     line-height: 34px;
-    letter-spacing: 0%;
+
     text-align: right;
   }
   .quote__text {
     font-family: Inter;
     font-weight: 400;
     font-size: 16px;
-    leading-trim: NONE;
     line-height: 163%;
-    letter-spacing: 0%;
   }
   .footer__Copyright {
     font-family: Inter;
     font-weight: 400;
     font-size: 14px;
-    leading-trim: NONE;
     line-height: 14px;
-    letter-spacing: 0%;
   }
 }

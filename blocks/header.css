@@ -52,7 +52,6 @@
     font-weight: 400;
     font-size: 30px;
     line-height: 36px;
-    letter-spacing: 0%;
     text-align: center;
   }
 }
@@ -63,7 +62,6 @@
     font-weight: 900;
     font-size: 75px;
     line-height: 79px;
-    letter-spacing: 0%;
     text-align: center;
   }
   .header__subtitle {
@@ -71,7 +69,6 @@
     font-weight: 400;
     font-size: 30px;
     line-height: 36px;
-    letter-spacing: 0%;
     text-align: center;
   }
 }
@@ -84,9 +81,7 @@
     font-family: "Inter", serif;
     font-weight: 900;
     font-size: 40px;
-
     line-height: 44px;
-    letter-spacing: 0%;
     text-align: center;
     padding-top: 50px;
   }
@@ -94,9 +89,7 @@
     font-family: "Inter", serif;
     font-weight: 400;
     font-size: 16px;
-
     line-height: 20px;
-    letter-spacing: 0%;
     text-align: center;
     padding-bottom: 40px;
   }
