@@ -86,10 +86,6 @@
   text-align: left;
 }
 
-.button-link {
-  grid-area: button;
-}
-
 .nft-content__button {
   margin-top: 48px;
   grid-area: button;
@@ -193,15 +189,12 @@
     line-height: 163%;
     padding: 0 16px 0 16px;
   }
-  .button-link {
-    display: flex;
-    justify-content: center;
-  }
+
   .nft-content__button {
     font-weight: 600;
     font-size: 14px;
     line-height: 100%;
     text-align: center;
-    margin: 0;
+    margin: 0 16px 0 16px;
   }
 }
