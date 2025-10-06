@@ -6,6 +6,7 @@
   padding-top: 118px;
   max-width: 1184px;
   margin: 0 auto;
+  overflow-x: scroll;
 }
 
 .gallery__item {
@@ -27,8 +28,8 @@
     max-height: 264px;
   }
   .gallery__image {
-    width: 352px;
-    height: 264px;
+    max-width: 352px;
+    max-height: 264px;
   }
 }
 

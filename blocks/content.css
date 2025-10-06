@@ -1,5 +1,6 @@
 .content {
   max-width: 830px;
+  padding-left: 148px;
 }
 
 .content__title {
@@ -51,6 +52,12 @@
   color: #ffffff;
   margin: 0;
   padding-top: 32px;
+}
+
+@media screen and (max-width: 1200px) {
+  .content {
+    padding-left: 20px;
+  }
 }
 
 @media screen and (max-width: 768px) {
