@@ -1,14 +1,17 @@
 .gallery {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: auto;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 16px;
   padding-top: 118px;
   max-width: 1184px;
   margin: 0 auto;
-  overflow-x: scroll;
 }
-
+/* 
+Cara eu to com mta dificuldade com isso, não é a solução que eu esperava
+Eu esperava uma solução onde o grid "shrinkava", diminuia de tamanho, mas não consegui fazer isso
+a unica solução que encontrei foi fazer com que as colunas se ajustem automáticamente, mas fica meio feio tipo 3-3-2
+O tutor não soube me ajudar em um 1 a 1
+*/
 .gallery__item {
   max-width: 284px;
   max-height: 213px;
@@ -18,7 +21,7 @@
 
 @media screen and (max-width: 768px) {
   .gallery {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 8px;
     padding-top: 60px;
     max-width: 720px;
